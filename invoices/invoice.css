@@ -1,0 +1,93 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100vh;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wrapper{
+    width: 424px;
+    height: 600px;
+    position: relative;
+    background: white;
+    padding: 30px,40px;
+    border-radius: 14px;
+}
+.border-design{
+    display: flex;
+    width: 100%;
+    justify-content: flex;
+}
+.border-design .c1,
+.border-design .c2,
+.border-design .c3,
+.border-design .c4,
+.border-design .c5{
+    width: 30px;
+    height: 10px;
+}
+.c5{
+    background-color: red;
+}
+.c1{
+    background: darkred;
+}
+.c2{
+    background: darkblue;
+}
+.c3{
+    background:  black;
+}
+.c4{
+    background: darkred;
+}
+.border-design.top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.border-design.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    flex-direction: row-reverse;
+}
+h3{
+    right: 20%;
+}
+h4{
+    right: 20%;
+}
+span{
+    padding-right: 200%;
+    
+}
+.logo{
+    font-weight:-1050;
+}
+.invoice-header{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+.Solutions{
+    position: relative;
+    left: 165px;
+}
+.LLC{
+    position: relative;
+    left: 195px;
+}
+.inv-date{
+    right: 250px;
+    bottom: 115px;
+    position: relative;
+}
