@@ -91,3 +91,12 @@ span{
     bottom: 115px;
     position: relative;
 }
+.content{
+    font-size: 13px;
+    text-align: center;
+}
+.line{
+    font-size: 1.0125cm;
+    position: relative;
+    bottom: 60px;
+}
